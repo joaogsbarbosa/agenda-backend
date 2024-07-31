@@ -12,6 +12,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddSqlite<AgendaContext>("Data Source=Agenda.db");
 builder.Services.AddScoped<HorarioService>();
+builder.Services.AddScoped<AtendimentoService>();
 
 var app = builder.Build();
 

@@ -1,4 +1,3 @@
-using System.Runtime.CompilerServices;
 using Agenda.Data;
 using Agenda.Models;
 using Microsoft.EntityFrameworkCore;
